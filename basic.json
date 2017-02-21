@@ -1,0 +1,18 @@
+[
+{"front": "How many days does a cat stay in heat??",
+"back":  "5",
+"fullAnswer": "Cats generally stay in heat for '5' days."
+},{"front": "What is allspice alternatively known as?",
+"back": "pimento",
+"fullAnswer": "Allspice alternatively is known as 'pimento'."
+},{"front": "In the beginning of Shrek, what did Shrek put in his glass?", 
+"back":"eyeball",
+"fullAnswer": "In the beginning of Shrek, he put an 'eyeball' in his glass."
+},{"front": "Whom does the dragon fall in love with?",
+"back": "donkey",
+"fullAnswer": "In Shrek, the dragon falls in love with 'Donkey'."
+},{"front": "What kind of creature is Shrek?", 
+"back": "ogre",
+"fullAnswer": "Shrek is an 'ogre'."
+}
+]

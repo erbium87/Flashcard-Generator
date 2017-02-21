@@ -1,0 +1,17 @@
+[
+{"cloze": "Cats generally stay in heat for ... days?",
+"answer":  "5",
+"fullAnswer": "Cats generally stay in heat for '5' days."
+},{"cloze": "Allspice alternatively is known as ...?",
+"answer": "pimento",
+"fullAnswer": "Allspice alternatively is known as 'pimento'."
+},{"cloze": "In the beginning of Shrek, he put an ... in his glass?", 
+"answer":"eyeball",
+"fullAnswer": "In the beginning of Shrek, he put an 'eyeball' in his glass."
+},{"cloze": "In Shrek, the dragon falls in love with ...?",
+"answer": "donkey",
+"fullAnswer": "In Shrek, the dragon falls in love with 'Donkey'."
+},{"cloze": "Shrek is an ...?", 
+"answer": "ogre",
+"fullAnswer": "Shrek is an 'ogre'."}
+]
