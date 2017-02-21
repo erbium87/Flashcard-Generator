@@ -26,10 +26,8 @@ var correctAnswer = 0;
 // var questionFive = new ClozeCard ("What kind of creature is Shrek?", "Ogre");
 // console.log(questionFive.question, questionFive.answer);
 
-
-
 var demandQuestion = function () {
-  if (counter < 5) {
+  if (counter < clozeQuestion.length) {
 	inquirer.prompt([
 	{type: "input",
 	name: "question",
@@ -48,12 +46,11 @@ var demandQuestion = function () {
 		console.log("Correct Answer: " + clozeQuestion[counter].fullAnswer + "\n<<<<<>>>>>\n");
 		counter ++;
 		demandQuestion();
-		
-		
+	
 		});//end of then 
 	}//end of if for demandQuestion
 	else {
-		console.log("Game Over\nYour Score is: " + correctAnswer + " out of " + clozeQuestion.length);
+		console.log("Game Over!\nYour Score is: " + correctAnswer + " out of " + clozeQuestion.length);
 		inquirer.prompt([
 		  {type: "confirm",
 		  name: "restart",
@@ -62,6 +59,7 @@ var demandQuestion = function () {
 	]).then(function (playAgain){
 		if (playAgain.restart === true){
 			counter = 0;
+			correctAnswer = 0;
 			demandQuestion();
 		}
 		else {

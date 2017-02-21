@@ -5,7 +5,7 @@ var correctAnswer = 0;
 
 
 var demandQuestion = function () {
-  if (counter < 5) {
+  if (counter < basicQuestion.length) {
 	inquirer.prompt([
 	{type: "input",
 	name: "question",
@@ -38,6 +38,7 @@ var demandQuestion = function () {
 	]).then(function (playAgain){
 		if (playAgain.restart === true){
 			counter = 0;
+			correctAnswer = 0;
 			demandQuestion();
 		}
 		else {
